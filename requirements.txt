@@ -1,0 +1,17 @@
+# Core Deep Learning Framework
+tensorflow==2.10.0
+
+# Machine Learning Utilities
+scikit-learn==1.2.0
+imbalanced-learn==0.10.0
+
+# Data Processing & Numerical Computing
+pandas==1.5.0
+numpy==1.23.0
+scipy==1.9.0
+
+# Visualization
+matplotlib==3.5.0
+
+# NOTE: This file ensures the reproducibility of the research environment.
+# Install all packages using: pip install -r requirements.txt
