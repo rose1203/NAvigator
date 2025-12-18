@@ -8,7 +8,8 @@ Our work presents a novel VDCNN architecture for accurate, high-throughput class
 - CUDA 11.2+ (for GPU acceleration)
 ### Quick Start
 cd (your repository)
- **Install dependencies**
+
+**Install dependencies**
  pip install -r requirements.txt
  
  ## Usage
