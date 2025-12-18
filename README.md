@@ -15,13 +15,13 @@ cd (your repository)
  ## Usage
 
 ### Data Preparation
-Place your mass spectrometry CSV files in the `data/` directory. Ensure they follow the format described in the `prepare_target_dataset` function within `src/utils.py`.
+Place your mass spectrometry CSV files in the `data/` directory. Ensure they follow the format described in the `prepare_target_dataset` function within `./utils.py`.
 
 ### Model Training
 To reproduce the results from our paper, run:
 python main.py
 
-**Key Hyperparameters** (configurable in `src/main.py`):
+**Key Hyperparameters** (configurable in `./main.py`):
 - `kernel_size=5`
 - `learning_rate=0.00005`
 - `batch_size=64`
